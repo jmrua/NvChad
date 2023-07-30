@@ -1,5 +1,11 @@
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = {
+    "lua-language-server",
+    "rust-analyzer",
+    "clangd",
+    "dockerls",
+    "docker_compose_language_service"
+  }, -- not an option from mason.nvim
 
   PATH = "skip",
 
